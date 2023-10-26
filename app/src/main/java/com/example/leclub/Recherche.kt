@@ -24,6 +24,8 @@ class Recherche : Fragment() {
 
         val bt1 = v.findViewById<Button>(R.id.viewproduct)
         val bt2 = v.findViewById<Button>(R.id.viewproduct2)
+        val bt3 = v.findViewById<Button>(R.id.viewproduct3)
+        val bt4 = v.findViewById<Button>(R.id.viewproduct4)
 
         bt1.setOnClickListener {
             val secondFragment = product()
@@ -32,6 +34,18 @@ class Recherche : Fragment() {
             transaction.commit()
         }
         bt2.setOnClickListener {
+            val secondFragment = product()
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.frame_layout, secondFragment)
+            transaction.commit()
+        }
+        bt3.setOnClickListener {
+            val secondFragment = product()
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.frame_layout, secondFragment)
+            transaction.commit()
+        }
+        bt4.setOnClickListener {
             val secondFragment = product()
             val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_layout, secondFragment)
