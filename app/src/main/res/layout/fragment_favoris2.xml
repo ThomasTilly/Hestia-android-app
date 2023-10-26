@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Favoris2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:id="@+id/rectangleView"
+        android:layout_width="319dp"
+        android:layout_height="168dp"
+        android:background="@drawable/rectangle_appartement"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_page_favs"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <View
+        android:id="@+id/imageView_start_favs2"
+        android:layout_width="112dp"
+        android:layout_height="111dp"
+        android:background="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView"
+        app:layout_constraintVertical_bias="0.459"
+        tools:src="@drawable/rectangle_research_1st_view" />
+
+    <TextView
+        android:id="@+id/title_page_favs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes Favoris"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/firstcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appart Vincennes"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/firstcard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="5.0"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs2"
+        app:layout_constraintTop_toBottomOf="@+id/firstcard"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="16dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="68dp"
+        android:src="@drawable/baseline_star_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toEndOf="@+id/firstcard2"
+        app:layout_constraintTop_toBottomOf="@+id/firstcard"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/baseline_location_on_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs2"
+        app:layout_constraintTop_toBottomOf="@+id/firstcard2"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="102 Rue Poissonnière 94100"
+        android:textColor="#CCCCCC"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/heart_fav"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="855€/mois"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangleView2"
+        android:layout_width="319dp"
+        android:layout_height="168dp"
+        android:background="@drawable/rectangle_appartement"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangleView"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <View
+        android:id="@+id/imageView_start_favs3"
+        android:layout_width="112dp"
+        android:layout_height="111dp"
+        android:background="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2"
+        app:layout_constraintVertical_bias="0.459"
+        tools:src="@drawable/rectangle_research_1st_view" />
+
+    <TextView
+        android:id="@+id/secondcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appart Vincennes"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs3"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/secondcard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="5.0"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs3"
+        app:layout_constraintTop_toBottomOf="@+id/secondcard"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="16dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="68dp"
+        android:src="@drawable/baseline_star_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toEndOf="@+id/secondcard2"
+        app:layout_constraintTop_toBottomOf="@+id/secondcard"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/baseline_location_on_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs3"
+        app:layout_constraintTop_toBottomOf="@+id/secondcard2"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="102 Rue Poissonnière 94100"
+        android:textColor="#CCCCCC"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/heart_fav"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="855€/mois"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toEndOf="@+id/imageView_start_favs3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
