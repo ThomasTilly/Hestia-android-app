@@ -111,6 +111,99 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.012" />
 
+        <TextView
+            android:id="@+id/appart_loyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="444dp"
+            android:text="1 200€/mois"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cardforphotos" />
+
+        <View
+            android:id="@+id/trait1_info"
+            android:layout_width="358dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/maincard_for_pics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appart_loyer" />
+
+        <TextView
+            android:id="@+id/appart_infos_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Logement Flatlooker ! Visitez et déposez votre dossier\n uniquement sur notre plateforme ! Nous ne vous\n enverrons jamais le bail ou le RIB par mail - tout est\n sécurisé sur notre plateforme. Situé à proximité du\n métro Simplon, Flatlooker vous propose un superbe T1\n meublé en location. Le salon comprend une table basse,\n un fauteuil, un meuble de rangement, un écran plat, une\n grande penderie avec des étagères, une table et des\n chaises, une console, un ventilateur, une planche, et un\n fer à repasser."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trait1_info" />
+
+        <View
+            android:id="@+id/trait2_info"
+            android:layout_width="358dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/maincard_for_pics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appart_infos_text" />
+
+        <ImageView
+            android:id="@+id/icon_infos"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="756dp"
+            android:src="@drawable/circular_filled_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/house"
+            android:layout_width="23dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_house_24"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_infos"
+            app:layout_constraintEnd_toEndOf="@+id/icon_infos"
+            app:layout_constraintStart_toStartOf="@+id/icon_infos"
+            app:layout_constraintTop_toTopOf="@+id/icon_infos" />
+
+        <TextView
+            android:id="@+id/title1info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Type de bien"
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.020"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos"
+            app:layout_constraintTop_toBottomOf="@+id/trait2_info" />
+
+        <TextView
+            android:id="@+id/content1info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Type de bien"
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.020"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos"
+            app:layout_constraintTop_toBottomOf="@+id/trait2_info" />
+
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
@@ -118,10 +211,9 @@
             android:text="Button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintHorizontal_bias="0.071"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.504" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button6"
