@@ -9,6 +9,7 @@
     tools:context=".Messages2Fragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:id="@+id/title_page_msg2"
         android:layout_width="wrap_content"
@@ -25,16 +26,27 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <ImageView
+        android:id="@+id/new_message"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:src="@drawable/circular_filled_icon_black"
+        app:layout_constraintBottom_toTopOf="@+id/trait1_message"
+        app:layout_constraintEnd_toStartOf="@+id/profil_icon_1"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_page_msg2"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <ImageView
         android:id="@+id/profil_icon_1"
         android:layout_width="50sp"
         android:layout_height="50sp"
+        android:layout_marginTop="68dp"
         android:src="@drawable/circular_profil_icon"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_page_msg2"
-        app:layout_constraintVertical_bias="0.113" />
+        app:layout_constraintTop_toBottomOf="@+id/title_page_msg2" />
 
     <TextView
         android:id="@+id/char1"
@@ -52,40 +64,48 @@
         android:id="@+id/name_profil_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="60dp"
         android:text="Sonia"
+        android:textSize="18dp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/message1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toEndOf="@+id/profil_icon_1"
-        app:layout_constraintTop_toBottomOf="@+id/title_page_msg2"
-        app:layout_constraintVertical_bias="0.985" />
+        app:layout_constraintTop_toBottomOf="@+id/title_page_msg2" />
 
     <TextView
         android:id="@+id/message1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Je serai intéressée d'avoir votre\n candidature, votre dossier"
+        android:text="Je serai intéressée d'avoir votre\n candidature, votre dossier ..."
         android:textColor="#CCCCCC"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toEndOf="@+id/profil_icon_1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintTop_toBottomOf="@+id/name_profil_1" />
+
+    <View
+        android:id="@+id/trait1_message"
+        android:layout_width="359dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/maincard_for_pics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message1" />
 
     <ImageView
         android:id="@+id/profil_icon_2"
         android:layout_width="50sp"
         android:layout_height="50sp"
+        android:layout_marginTop="32dp"
         android:src="@drawable/circular_profil_icon"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/profil_icon_1"
-        app:layout_constraintVertical_bias="0.113" />
+        app:layout_constraintTop_toBottomOf="@+id/trait1_message" />
 
     <TextView
         android:id="@+id/char2"
@@ -103,14 +123,14 @@
         android:id="@+id/name_profil_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Lucas"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/message2"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toEndOf="@+id/profil_icon_2"
-        app:layout_constraintTop_toBottomOf="@+id/message1"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/trait1_message" />
 
     <TextView
         android:id="@+id/message2"
@@ -118,12 +138,70 @@
         android:layout_height="wrap_content"
         android:text="Malheureusement, votre\n candidature n'a pas été concluant."
         android:textColor="#CCCCCC"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toEndOf="@+id/profil_icon_2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintTop_toBottomOf="@+id/name_profil_2" />
+
+    <View
+        android:id="@+id/trait2_message"
+        android:layout_width="359dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/maincard_for_pics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message2" />
+
+    <ImageView
+        android:id="@+id/profil_icon_3"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/circular_profil_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trait2_message" />
+
+    <TextView
+        android:id="@+id/char3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profil_icon_3"
+        app:layout_constraintEnd_toEndOf="@+id/profil_icon_3"
+        app:layout_constraintStart_toStartOf="@+id/profil_icon_3"
+        app:layout_constraintTop_toTopOf="@+id/profil_icon_3" />
+
+    <TextView
+        android:id="@+id/name_profil_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sonia"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toEndOf="@+id/profil_icon_3"
+        app:layout_constraintTop_toBottomOf="@+id/trait2_message" />
+
+    <TextView
+        android:id="@+id/message3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malheureusement, votre\n candidature n'a pas été concluant."
+        android:textColor="#CCCCCC"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toEndOf="@+id/profil_icon_3"
+        app:layout_constraintTop_toBottomOf="@+id/name_profil_3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

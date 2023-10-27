@@ -9,6 +9,7 @@
     tools:context=".Profil">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
         android:id="@+id/title_page_profil"
         android:layout_width="wrap_content"
@@ -26,14 +27,241 @@
 
     <ImageView
         android:id="@+id/profil_icon"
-        android:layout_width="50sp"
-        android:layout_height="50sp"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
         android:src="@drawable/circular_profil_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_page_profil"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/profil_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olawale Ayodele"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toEndOf="@+id/profil_icon"
+        app:layout_constraintTop_toBottomOf="@+id/title_page_profil"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/profil_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waleayo23@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toEndOf="@+id/profil_icon"
+        app:layout_constraintTop_toBottomOf="@+id/profil_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <View
+        android:id="@+id/rectangleView_profil"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/rectangle_appartement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_email" />
+
+    <ImageView
+        android:id="@+id/profil_firsticon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_person_pin_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView_profil"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/profil_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes informations"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toEndOf="@+id/profil_firsticon"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil"
+        app:layout_constraintVertical_bias="0.320" />
+
+    <TextView
+        android:id="@+id/profil_subtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Nom, prénom, adresse email, téléphone"
+        android:textColor="#CCCCCC"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profil_firsticon"
+        app:layout_constraintTop_toBottomOf="@+id/profil_title1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangleView_profil2"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rectangle_appartement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangleView_profil" />
+
+    <ImageView
+        android:id="@+id/profil_secondicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_book_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil2"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView_profil2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil2"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/profil_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes biens"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil2"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toEndOf="@+id/profil_secondicon"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil2"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:id="@+id/profil_subtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Appartement, biens, publications"
+        android:textColor="#CCCCCC"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profil_secondicon"
+        app:layout_constraintTop_toBottomOf="@+id/profil_title2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangleView_profil3"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rectangle_appartement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangleView_profil2" />
+
+    <ImageView
+        android:id="@+id/profil_thirdicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_credit_card_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil3"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView_profil3"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil3"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/profil_title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ma carte de crédits"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil3"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/profil_thirdicon"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil3"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:id="@+id/profil_subtitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Carte bancaires, RIB"
+        android:textColor="#CCCCCC"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/profil_thirdicon"
+        app:layout_constraintTop_toBottomOf="@+id/profil_title3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangleView_profil4"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rectangle_appartement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangleView_profil3" />
+
+    <ImageView
+        android:id="@+id/profil_fourthicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_logout_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil4"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil4"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView_profil4"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil4"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/profil_title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView_profil4"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView_profil4"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toEndOf="@+id/profil_fourthicon"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView_profil4"
+        app:layout_constraintVertical_bias="0.488" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
