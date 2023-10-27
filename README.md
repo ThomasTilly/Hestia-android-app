@@ -3,6 +3,14 @@
 Welcome to the gitlab of Hestia.  
 This is a school project, we made an android application.
 
+- Annie Tran  (CDO)
+- Lars Vernier (CDO)
+- Savy Saint-Prix (CEO)
+- Alex Ruggieri (CMO)
+- Rayan Boudjemai (CTO)
+- Guilhem Bozzi (CTO)
+- Thomas Tilly (CTO)
+
 ## To run the android application 
 
 1. You just have to download all the files of our gitlab, then put these files into a single folder.
