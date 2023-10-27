@@ -507,10 +507,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="GES"
+            android:text="Etages"
             android:textSize="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.030"
+            app:layout_constraintHorizontal_bias="0.035"
             app:layout_constraintStart_toEndOf="@+id/icon_infos4_2"
             app:layout_constraintTop_toBottomOf="@+id/content3_2info" />
 
@@ -518,14 +518,253 @@
             android:id="@+id/content4_2info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="C"
+            android:text="2e"
             android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintHorizontal_bias="0.030"
             app:layout_constraintStart_toEndOf="@+id/icon_infos4_2"
             app:layout_constraintTop_toBottomOf="@+id/title4_2info" />
+
+        <ImageView
+            android:id="@+id/icon_infos5"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/circular_filled_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/icon_infos4" />
+
+        <ImageView
+            android:id="@+id/house5"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:src="@drawable/baseline_house_24"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_infos5"
+            app:layout_constraintEnd_toEndOf="@+id/icon_infos5"
+            app:layout_constraintStart_toStartOf="@+id/icon_infos5"
+            app:layout_constraintTop_toTopOf="@+id/icon_infos5" />
+
+        <TextView
+            android:id="@+id/title5info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Parking"
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos5"
+            app:layout_constraintTop_toBottomOf="@+id/content4info" />
+
+        <TextView
+            android:id="@+id/content5info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.018"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos5"
+            app:layout_constraintTop_toBottomOf="@+id/title5info" />
+
+        <ImageView
+            android:id="@+id/icon_infos5_2"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/circular_filled_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.580"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_infos4_2" />
+
+        <ImageView
+            android:id="@+id/house5_2"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:src="@drawable/baseline_house_24"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_infos5_2"
+            app:layout_constraintEnd_toEndOf="@+id/icon_infos5_2"
+            app:layout_constraintStart_toStartOf="@+id/icon_infos5_2"
+            app:layout_constraintTop_toTopOf="@+id/icon_infos5_2" />
+
+        <TextView
+            android:id="@+id/title5_2info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Extérieur"
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.038"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos5_2"
+            app:layout_constraintTop_toBottomOf="@+id/content4_2info" />
+
+        <TextView
+            android:id="@+id/content5_2info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balcon"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.033"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos5_2"
+            app:layout_constraintTop_toBottomOf="@+id/title5_2info" />
+
+        <ImageView
+            android:id="@+id/icon_infos6"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/circular_filled_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/icon_infos5" />
+
+        <ImageView
+            android:id="@+id/house6"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:src="@drawable/baseline_house_24"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_infos6"
+            app:layout_constraintEnd_toEndOf="@+id/icon_infos6"
+            app:layout_constraintStart_toStartOf="@+id/icon_infos6"
+            app:layout_constraintTop_toTopOf="@+id/icon_infos6" />
+
+        <TextView
+            android:id="@+id/title6info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Transport"
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.019"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos6"
+            app:layout_constraintTop_toBottomOf="@+id/content5info" />
+
+        <TextView
+            android:id="@+id/content6info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 - 2 Rer A"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.020"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos6"
+            app:layout_constraintTop_toBottomOf="@+id/title6info" />
+
+        <ImageView
+            android:id="@+id/icon_infos6_2"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/circular_filled_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.580"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_infos5_2" />
+
+        <ImageView
+            android:id="@+id/house6_2"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:src="@drawable/baseline_house_24"
+            app:layout_constraintBottom_toBottomOf="@+id/icon_infos6_2"
+            app:layout_constraintEnd_toEndOf="@+id/icon_infos6_2"
+            app:layout_constraintStart_toStartOf="@+id/icon_infos6_2"
+            app:layout_constraintTop_toTopOf="@+id/icon_infos6_2" />
+
+        <TextView
+            android:id="@+id/title6_2info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Charge incluses"
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos6_2"
+            app:layout_constraintTop_toBottomOf="@+id/content5_2info" />
+
+        <TextView
+            android:id="@+id/content6_2info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.028"
+            app:layout_constraintStart_toEndOf="@+id/icon_infos6_2"
+            app:layout_constraintTop_toBottomOf="@+id/title6_2info" />
+
+        <View
+            android:id="@+id/trait3_info"
+            android:layout_width="358dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/maincard_for_pics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title6info" />
+
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_location_on_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trait3_info" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Vincennes 94000"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toEndOf="@+id/location_icon"
+            app:layout_constraintTop_toBottomOf="@+id/trait3_info" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="351dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trait3_info" />
+
+        <View
+            android:id="@+id/trait4_info"
+            android:layout_width="358dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/maincard_for_pics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mapView" />
 
         <Button
             android:id="@+id/button5"

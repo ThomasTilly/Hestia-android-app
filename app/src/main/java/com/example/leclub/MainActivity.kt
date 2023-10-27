@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigationView.setOnItemSelectedListener {
             when(it.itemId) {
                 R.id.recherche -> replaceFragment(Recherche())
-                R.id.favoris -> replaceFragment(Favoris())
-                R.id.messages -> replaceFragment(Messages())
+                R.id.favoris -> replaceFragment(Favoris2())
+                R.id.messages -> replaceFragment(Messages2Fragment())
                 R.id.profil -> replaceFragment(Profil())
                 else ->{
                 }
